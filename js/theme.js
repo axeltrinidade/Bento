@@ -36,7 +36,7 @@ themeToggle.addEventListener('click', () => {
 const today = new Date();
 const Hr = today.getHours();
 
-if (Hr >= 1 || Hr < 7) {
+if (Hr >= 23 || Hr < 7) {
     enableDark();
 } else {
     disableDark();
