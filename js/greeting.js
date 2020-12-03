@@ -21,5 +21,5 @@ if (hour >= 1 && hour < 5) {
 } else if (hour >= 12 && hour < 16) {
     document.getElementById('greetings').innerText = gree3 + name;
 } else  {
-    document.getElementById('greetings').innerText = gree4 + name;
+    document.getElementById('greetings').innerText = gree5 + name;
 }
